@@ -146,6 +146,11 @@ background-size: cover;
 height: 100vh;
 }
 
+.meattable table{
+  color: #ffff;
+  align-content: center;
+}
+
 /*for the potion pot*/
 .body1{
   background-image: url(imgs1/thepotionpot.jpg);
