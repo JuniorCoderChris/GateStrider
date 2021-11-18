@@ -146,10 +146,21 @@ background-size: cover;
 height: 100vh;
 }
 
-.meattable table{
-  color: #ffff;
-  align-content: center;
+.foottable{
+  display: block;
+  
 }
+
+.meattable{
+  color: #ffff;
+  float:left;
+}
+
+.meattable p{
+  text-align: center;
+}
+
+
 
 /*for the potion pot*/
 .body1{
