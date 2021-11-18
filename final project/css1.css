@@ -146,21 +146,39 @@ background-size: cover;
 height: 100vh;
 }
 
-.foottable{
-  display: block;
-  
+.foodtable{
+  align-items: center;
+  position: relative;
+  top: 545px;
+  display: inline-flex;
+  left: 400px;
+  border:3px solid #ffff;
 }
 
 .meattable{
-  color: #ffff;
-  float:left;
+  border: 3px solid white;
 }
 
-.meattable p{
+.meattable th, p{
+  color: #ffff;
   text-align: center;
 }
 
+.cheesetable{
+  border: 3px solid white;
+}
 
+.cheesetable th, p{
+  color: #ffff;
+}
+
+.winetable th, p{
+  color: #ffff;
+}
+
+.winetable{
+  
+}
 
 /*for the potion pot*/
 .body1{
