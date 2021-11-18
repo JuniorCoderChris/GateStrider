@@ -198,9 +198,13 @@ height: 100vh;
 
 .body5{
   background-image: url(imgs1/dashboard.jpg);
+  background-size: cover;
+  height: 100vh;
 }
 /* for the manager dashboard*/
 
 .body6{
   background-image: url(imgs1/dashboard.jpg);
+  background-size: cover;
+  height: 100vh;
 }
