@@ -138,3 +138,40 @@ form {
 .choice1{
   align-content: center;
 }
+
+/*for the ex wife's pastrami shop*/
+.body{
+  background-image: url(imgs1/exwife.jpg);
+background-size: cover;
+height: 100vh;
+}
+
+.foottable{
+  display: block;
+  
+}
+
+.meattable{
+  color: #ffff;
+  float:left;
+}
+
+.meattable p{
+  text-align: center;
+}
+
+
+
+/*for the potion pot*/
+.body1{
+  background-image: url(imgs1/thepotionpot.jpg);
+background-size: cover;
+height: 100vh;
+}
+
+/*for soup*/
+.body2{
+  background-image: url(imgs1/soup.jpg);
+background-size: cover;
+height: 100vh;
+}
