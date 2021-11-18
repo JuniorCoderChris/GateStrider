@@ -193,3 +193,14 @@ height: 100vh;
 background-size: cover;
 height: 100vh;
 }
+
+/*for the customer dashboard*/
+
+.body5{
+  background-image: url(imgs1/dashboard.jpg);
+}
+/* for the manager dashboard*/
+
+.body6{
+  background-image: url(imgs1/dashboard.jpg);
+}
