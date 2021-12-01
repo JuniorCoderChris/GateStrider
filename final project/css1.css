@@ -237,3 +237,18 @@ height: 100vh;
   font-weight: 700;
   margin: -17% 15% 0% 0%;
 }
+
+/*for the customer dashboard*/
+
+.body5{
+  background-image: url(imgs1/dashboard.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+/* for the manager dashboard*/
+
+.body6{
+  background-image: url(imgs1/dashboard.jpg);
+  background-size: cover;
+  height: 100vh;
+}
