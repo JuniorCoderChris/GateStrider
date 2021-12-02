@@ -138,3 +138,102 @@ form {
 .choice1{
   align-content: center;
 }
+
+/*for the ex wife's pastrami shop*/
+.body{
+  background-image: url(imgs1/exwife.jpg);
+background-size: cover;
+height: 100vh;
+}
+
+.foodtable{
+  align-items: center;
+  position: relative;
+  top: 545px;
+  display: inline-flex;
+  left: 400px;
+  border:3px solid #ffff;
+}
+
+.meattable{
+  border: 3px solid white;
+}
+
+.meattable th, p{
+  color: #ffff;
+  text-align: center;
+}
+
+.cheesetable{
+  border: 3px solid white;
+}
+
+.cheesetable th, p{
+  color: #ffff;
+}
+
+.winetable th, p{
+  color: #ffff;
+}
+
+.winetable{
+  border: 3px solid white;
+}
+
+/*for the potion pot*/
+.body1{
+  background-image: url(imgs1/thepotionpot.jpg);
+background-size: cover;
+height: 100vh;
+}
+
+/*for soup*/
+.body2{
+  background-image: url(imgs1/soup.jpg);
+  background-size: 37%;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.soupSection{
+  border: 3px solid black;
+  color: white;
+  width: 400px;
+  position: relative;
+  top: 50px;
+  left: 900px;
+  font-weight: bold;
+  background-color: black;
+}
+
+.tableSoup{
+  font-size: 35px;
+}
+
+.soup1{
+  position: absolute;
+  width: 15%;
+  bottom: 280px;
+  left: 50px;
+}
+
+.soup2{
+  position: absolute;
+  width: 15%;
+  bottom: 500px;
+  left: 500px;
+}
+
+.paraSoup1{
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  margin: -14% 78% 0% 0%;
+}
+
+.paraSoup2{
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  margin: -17% 15% 0% 0%;
+}
