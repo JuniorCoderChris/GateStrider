@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header1{
+    background-color: lightgreen;
+    margin-top: -2%;
+    padding: 5px;
+    height: 250px;
+}
+
+.payOption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 5%;
+}
+
+.pleaseOption{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.section1{
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 200px 200px;
+    position: relative;
+    top: 25px;
+    
+}
+
+.payCash{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.cashSection{
+    margin-left: 5%;
+    line-height: 2;
+    margin-top: 3%;
+}
+
+.firstName1{
+   font-size: 25px; 
+   float: left;
+}
+
+.lastName1{
+    font-size: 25px;
+}
