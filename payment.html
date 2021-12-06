@@ -9,10 +9,45 @@
             <p class="pleaseOption">Please select your payment option to continue.</p>
         </header>
         <section class="section1">
-            <h3 class="payCash">Cash</h3>
-            <div class='cashSection'>
-                <input class="firstName1" type="text" name="name" placeholder="First name"><br><br>
-                <input class="lastName1" type="text" name="name" placeholder="Last name">
+            <div class="divCash">
+                <h3 class="payCash">Cash</h3>
+                <h4 class="name1">Your first and last name:</h4>
+                <div class='cashSection'>
+                    <input class="firstName1" type="text" name="name" placeholder="First name*"><br><br>
+                    <input class="lastName1" type="text" name="name" placeholder="Last name*">
+                </div>
+                <h4 class="gender">Gender:</h4>
+                <from class="form1">
+                    <input class="male1" type="radio" id="male" name="name" value="Male">
+                    <label for="male">Male</label><br>
+                    <input class="female1" type="radio" id="female" name="name" value="Female">
+                    <label for="female">Female</label><br>
+                    <a class="button1" href="#">Send It</a>
+                </from>
+            </div>
+            <div class="divCard">
+                <h3 class="payCard">Credit/Debit Card</h3>
+                <img class="visaImg" src="imgs1/visa.jpg">
+                <img class="mcImg" src="imgs1/mastercard.png">
+                <from class="form2">
+                    <input class="credit1" type="radio" name="name" value="Credit">
+                    <label for="credit">Credit</label>
+                    <input class="debit1" type="radio" name="name" value="Debit">
+                    <label for="debit">Debit</label>
+                </from>
+                <div class="number1">
+                    <p class="numberTitle">Your card number:</p>
+                    <input class="numberBar" type="text" name="name">
+                </div>
+                <div class="expiration1">
+                    <p class="expTitle">Expiration Date:</p>
+                    <input class="expBar" type="month" name="name" value="ExpDate">
+                </div>
+                <div class="securityCode">
+                    <p class="secuTitle">Security code:</p>
+                    <input class="secu" type="number" name="name" value="SecuCode" min="1" max="999">
+                </div>
+                <a class="button2" href="#">Pay Now</a>
             </div>
         </section>
     </body>
