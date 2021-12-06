@@ -3,6 +3,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.section1{
+    height: 950px;
+}
+
 .header1{
     background-color: lightgreen;
     margin-top: -2%;
@@ -23,11 +27,17 @@
 }
 
 .section1{
+    display: inline-flex;
+}
+
+.divCash{
     border: 2px solid rgb(192, 192, 192);
-    border-radius: 200px 200px;
+    border-radius: 50px 50px;
+    margin: 20;
     position: relative;
     top: 25px;
-    
+    height: 850px;
+    width: 650px;
 }
 
 .payCash{
@@ -43,11 +53,147 @@
     margin-top: 3%;
 }
 
+.name1{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
 .firstName1{
    font-size: 25px; 
    float: left;
+   outline: none;
 }
 
 .lastName1{
     font-size: 25px;
+    outline: none;
+}
+
+.gender{
+    font-size: 25px;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.button1{
+    font-size: 40px;
+    border: 1px solid blue;
+    border-radius: 100px 100px;
+    padding: 20px 40px;
+    background-color: blue;
+    color: white;
+    margin: 0% 0% 0% 32%;
+    position: relative;
+    top: 150px;
+    transition: 0.3s;
+}
+
+.button1:link{
+    text-decoration: none;
+}
+
+.form1{
+    line-height: 2;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.male1{
+    margin-top: 6%;
+}
+
+.female1{
+    margin-left: 10%;
+}
+
+.divCard{
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 50px 50px;
+    margin: 20;
+    position: relative;
+    top: 25px;
+    height: 850px;
+    width: 800px;
+}
+
+.payCard{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.visaImg{
+    width: 15%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.mcImg{
+    width: 15%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.form2{
+    word-spacing: 2;
+    position: relative;
+    top: 75px;
+    right: 450px;
+    font-size: 20px;
+}
+
+.debit1{
+    margin-left: 5%;
+}
+
+.numberBar{
+    font-size: 25px;
+    outline: none;
+}
+
+.number1{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.expiration1{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.securityCode{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.button2{
+    font-size: 40px;
+    border: 1px solid blue;
+    border-radius: 100px 100px;
+    padding: 20px 40px;
+    background-color: blue;
+    color: white;
+    margin: 0% 0% 0% 32%;
+    position: relative;
+    top: 140px;
+    transition: 0.3s;
+}
+
+.button2:link{
+    text-decoration: none;
+}
+
+.button1:hover{
+    background-color: purple;
+    border-color: purple;
+    transition: 0.3s;
+}
+
+.button2:hover{
+    background-color: purple;
+    border-color: purple;
+    transition: 0.3s;
 }
