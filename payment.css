@@ -5,6 +5,7 @@
 
 .section1{
     height: 950px;
+    width: 1480px;
 }
 
 .header1{
@@ -127,22 +128,36 @@
     width: 15%;
     height: auto;
     margin-top: 5%;
-    margin-left: 25%;
+    margin-left: 8%;
 }
 
 .mcImg{
     width: 15%;
     height: auto;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 8%;
+}
+
+.amEx{
+    width: 15%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 8%;
 }
 
 .form2{
-    word-spacing: 2;
+    margin-left: 8%;
+    margin-top: 15%;
     position: relative;
-    top: 75px;
-    right: 450px;
-    font-size: 20px;
+    top: 70px;
+    font-size: 25px;
+}
+
+.discover{
+    width: 15%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 8%;
 }
 
 .debit1{
@@ -150,22 +165,22 @@
 }
 
 .numberBar{
-    font-size: 25px;
+    font-size: 28px;
     outline: none;
 }
 
 .number1{
-    margin-top: 15%;
+    margin-top: 17%;
     margin-left: 5%;
 }
 
 .expiration1{
-    margin-top: 5%;
+    margin-top: 7%;
     margin-left: 5%;
 }
 
 .securityCode{
-    margin-top: 3%;
+    margin-top: 7%;
     margin-left: 5%;
 }
 
@@ -178,7 +193,7 @@
     color: white;
     margin: 0% 0% 0% 32%;
     position: relative;
-    top: 140px;
+    top: 50px;
     transition: 0.3s;
 }
 
@@ -197,3 +212,4 @@
     border-color: purple;
     transition: 0.3s;
 }
+
