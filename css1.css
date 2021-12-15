@@ -60,6 +60,11 @@ form {
     background-color: rgb(47, 116, 243);
   }
   
+.managerLog {
+  border-radius: 15px;
+  border: 3px solid black;
+  background-color: lightcoral;
+}
 .avatar{
     border: 3px solid black;
     border-radius: 15px;
@@ -83,9 +88,24 @@ form {
     cursor: pointer;
     width: 100%;
   }
+
+  .button2{
+    background-color: #fffb00;
+    color: white;
+    padding: 7px;
+    margin: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 7%;
+    margin-left: 46.5%;
+  }
   
  
   button:hover {
+    opacity: 0.8;
+  }
+
+  .button2:hover {
     opacity: 0.8;
   }
   
