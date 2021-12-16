@@ -1,31 +1,53 @@
+<!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="css1.css"><link href="https://fonts.googleapis.com/css2?family=Belleza&family=Kaushan+Script&display=swap" rel="stylesheet">
-    <title>manager log-in</title></head>
-    <body>
+    <head>
+        <title>manager log-in</title>
+        <link rel="stylesheet" href="manager-log-in.css"> 
+    </head>
+    <body class="mainBody">
         <div class="log-inbar">
-            <form class="managerLog" action="managerpage.html" method="post">
+            <form class="managerLog" action="managerpage.html" id="post">
                 <div class="imgcontainer">
                   <img src="imgs1/try2.jpg" alt="Avatar" class="avatar">
                 </div>
               
                 <div class="container">
                   <label for="uname"><b>Username</b></label>
-                  <input type="text" placeholder="Enter Username" name="uname" required>
+                  <input type="text" placeholder="Enter Username" name="" id="username">
               
                   <label for="psw"><b>Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="psw" required>
+                  <input type="password" placeholder="Enter Password" name="" id="password">
               
-                  <button type="submit"><a href="managerpage.html">Login</a></button>
+                  <button type="submit" value="Login" name="" onclick="validate()"><a href="managerpage.html">Login</a></button>
                   <label>
                     <input type="checkbox" checked="checked" name="remember"> Remember me
                   </label>
                 </div>
               
                 <div class="container" style="background-color:#f1f1f1">
-                  <button type="button" class="cancelbtn"><a href="homepage.html">cancel</a></button>
+                  <button type="button" class="cancelbtn"><a href="RestaurantHomePage.html">cancel</a></button>
                   <span class="psw">Forgot <a href="password.html">password?</a></span>
                 </div>
               </form>
         </div>
     </body>
+    <script>
+        function validate()
+        {
+        var username=document.getElementById("username").value;
+        var password=document.getElementById("password").value;
+        if(username=="Paul"&& password=="80154")
+        {
+            alert("correct login");
+            window.location = "managerpage.html";
+        }
+        else
+        {
+            alert("invalid login");
+        }
+
+
+
+        }
+    </script>
 </html>
