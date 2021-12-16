@@ -43,19 +43,9 @@
 .dinnerList{
     border: 5px solid black;
     width: 400px;
-    height: 570px;
+    height: 750px;
     position: relative;
-    left: 200px;
-    top: 300px;
-    background-color: lightseagreen;
-}
-
-.desertList{
-    border: 5px solid black;
-    width: 400px;
-    height: 570px;
-    position: relative;
-    left: 500px;
+    left: 300px;
     top: 300px;
     background-color: lightseagreen;
 }
@@ -74,8 +64,9 @@
 
 .section3{
     position: relative;
-    left: 300px;
-    top: 400px;
+    left: 900px;
+    bottom: 350px;
+    width: 400px;
 }
 
 .searchBar{
@@ -121,4 +112,27 @@
 
 .inscTitle{
     line-height: 3;
+}
+
+.logOut{
+    border: 4px solid black;
+    background-color: lightskyblue;
+    color: black;
+    font-weight: 700;
+    padding: 10px 20px;
+    width: 75px;
+    position: absolute;
+    text-align: center;
+    left: 50px;
+    top: 50px;
+    transition: 0.2s;
+}
+
+.logOut:hover{
+    transition: 0.2s;
+    background-color: violet;
+}
+
+.logOut:link{
+    text-decoration: none;
 }
