@@ -1,2 +1,1 @@
-# GateStrider
-food.
+A Taste of Heaven Diner
